@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+float pol, po2,po3, s1, s2, s3, d1, d2, d3;
+char p1,p2,03;
+printf("Ingrese 3 paises ");
+scanf("%c%C%c",&p1,&p2, &p3);
+printf("Ingrese su superficie ");
+scanf("%f%f%f",&s1,&s2,&s3);
+printf("Ingrese su poblacion ");
+scanf("%f%f%f",&po1, &po2, &po3);
+d1=po1/s1;
+d2=po2/s2;
+d3=po3/s3;
+if (d1>d2){
+if (dl>d3) {
+printf("Es densamente mas poblado
+%C",p1);
+}
+else{
+printf("Es densanente mas poblado
+%c",p3);
+}
+}
+else{
+if (d2>d3) {
+printf("Es densamente mas poblado
+%c",p2);
+}
+else {
+printf("Es densamente mas poblado
+%C",p3);
+}
+}
+}
