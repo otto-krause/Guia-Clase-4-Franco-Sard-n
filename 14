@@ -2,19 +2,29 @@
 #include<stdlib.h>
 int main()
 {
-int n1, n2, n3;
-printf("Ingrese 3 valores ");
-scanf("%d%d%d",&n1,&n2, &n3);
-if (n1==n2&&n2==n3){
-printf("Los 3 valores son iguales");
+float h,m,s, total;
+int un;
+printf("Ingrese hora ");
+scanf("%f",&h);
+printf("Ingrese minutos ");
+scanf("%f",&m);
+printf("Ingrese segundos ");
+scanf("%f",&s);
+printf("Ingrese una unidad");
+scanf("%d", &un);
+if (un==1) {
+total=s+(h*60*60)+(m*60);
+printf("Segundo: %f", total);
 }
-else {
-if (n1==n2||n2=En3||n1=En3){
-printf("2 valores son iguales");
+else{
+if (un==2) {
+total=m+(h*60)+(5/60);
+printf("Minutos: %f", total);
 }
-else {
-printf("todos los valores son
-distintos");
+else{
+if (un==3){
+tol=h+(m/60)+(s/60/60);
+printf("hora: %f", total);
 }
 }}
 }
